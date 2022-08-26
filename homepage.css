@@ -1,0 +1,34 @@
+@media screen and (min-width:421px) {
+    .error {
+        display: none
+    }
+
+    .big-cont {
+        display: flex
+    }
+}
+
+@media screen and (min-width:631px) {
+    .error {
+        width: 100vw;
+        height: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(241, 210, 172);
+    }
+
+    .big-cont {
+        display: none
+    }
+}
+
+@media screen and (max-width:420px) {
+    .error {
+        display: none
+    }
+
+    .big-cont {
+        display: none
+    }
+}
